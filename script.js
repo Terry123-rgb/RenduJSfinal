@@ -21,6 +21,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             let contain = document.getElementById("product-container");
 
             let carte = document.createElement("div");
+            carte.classList.add("card");
             contain.appendChild(carte);
 
             let image = document.createElement("img");
@@ -37,8 +38,6 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             let desc = document.createElement("h4");
             carte.appendChild(desc);
             desc.textContent = element.description
-
-
 
 
  });
