@@ -23,6 +23,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
             let carte = document.createElement("div");
             carte.classList.add("card");
             contain.appendChild(carte);
+           
 
             let image = document.createElement("img");
             carte.appendChild(image);
@@ -69,15 +70,15 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
         });
 
 
-    })
+    });
 
     
 
 
 
-    .catch(error => {
-        // ici on gère les erreurs
-        console.error('Erreur lors du fetch :', error);
+    // .catch(error => {
+    //     // ici on gère les erreurs
+    //     console.error('Erreur lors du fetch :', error);
 
 
 
@@ -85,4 +86,4 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
 
 
 
-    });
+    // });

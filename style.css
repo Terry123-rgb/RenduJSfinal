@@ -1,3 +1,10 @@
-.card{
-    
+#product-container{
+    width: 30px;
+    display: flex;
+
+}
+
+
+#hero{
+height: 200%;
 }
