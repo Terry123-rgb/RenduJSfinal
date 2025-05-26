@@ -1,10 +1,90 @@
-#product-container{
-    width: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Pacifico&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+#product-container {
+
     display: flex;
 
+    img {
+        width: 180px;
+        display: flex;
+
+    }
+
+    max-width: 976px;
+    margin: auto;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    h4 {
+        margin: 5px;
+    }
+
+    h3 {
+        justify-self: center;
+    }
+}
+
+#hero {
+    justify-items: anchor-center;
+    padding: 20px;
+
+    button {
+        background-color: rgb(237, 66, 72);
+        color: white;
+        border: none;
+        height: 60px;
+        border-radius: 35px;
+        font-family: "Oswald", sans-serif;
+
+        font-size: large;
+    }
+
+    h1 {
+        font-family: "Pacifico", cursive;
+    }
+
+    h2 {
+        font-family: "Pacifico", cursive;
+    }
+}
+
+.card {
+    width: 180px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 12px 1px rgb(82 82 82 / 20%);
 }
 
 
-#hero{
-height: 200%;
+#section {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display: flex
+;
+    max-width: 976px;
+    margin: auto;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap; */
